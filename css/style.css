@@ -1,0 +1,488 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-size: 18px;
+	font-family: fira sans; 
+}
+
+html, body {
+	height: 100%;
+}
+
+.wrapper {
+
+}
+
+.header {
+	height: 90px;
+	padding-top: 29px; 
+}
+
+.header, .main {
+	background-color: #dddddf;
+}
+
+.header__logo {
+	float: left;
+
+}
+
+.header__phone {
+	float: right;
+	font-family: Roboto Light;
+}
+
+.header__nav {
+	float: right;
+}
+
+.header__nav_link {
+	padding-right: 40px;
+	font-family: Roboto regular;
+}
+
+.main {
+	height: 450px;
+	position: relative;
+}
+
+.slogan_text {	
+	font-size: 52pt;
+	width: 374px;
+	margin-left: 29px; 
+	color: #2e2e2e;
+	font-family: Roboto Thin;
+}
+
+.slogan_button {
+	margin-left: 29px; 
+	margin-top: 30px; 	
+	margin-right: 800px; 	
+}
+
+.slogan_button_link {
+	width: 163px;
+	color: #b4a776;	
+	border: 2px solid #b4a776;
+	padding: 14px;
+	display: block;
+}
+
+.images {
+	position: relative;
+	margin-top: 88px; 
+}
+
+.images_text_ortod {
+	position: absolute;
+	font-size: 362pt;
+	/* margin-bottom: 300px; */ 
+	margin-left: 140px;
+	margin-top: -239px;
+	opacity: 0.1; 
+	z-index: 1;
+	font-family: Roboto Thin;
+}
+
+.images_cab {
+	position: absolute;	
+	z-index: 2;
+
+}
+
+.images_girl {
+	position: absolute;
+	bottom: -282px;
+	left: 546px;
+	z-index: 20; 
+	float: right;		
+}
+
+										/* --- БЛОК РЕКЛАМЫ --- */
+.marketing {
+	padding-top: 93px;
+	height: 100%;
+}
+
+.medicine_procent {
+	margin: 0 auto;
+	height: 100%;
+	text-align: center;
+	width: 500px;
+	padding-top: 100px;
+}
+
+.medicine_procent_procent {
+	font-size: 14px;
+	color: #e1e5e7;
+	font-family: Roboto Bold;
+}
+
+.medicine_procent_h3 {
+	font-size: 30px;
+	color: #2e2e2e;
+}
+
+.medicine_procent_mp {
+	font-size: 12px;
+	color: #000000;
+	font-family: Roboto Light;
+}
+
+.square_top {
+	margin-top: 85px;	 
+}
+
+.tooth {
+	margin: 0 auto;
+	width: 490px;
+}
+
+.square_left_h3,.square_right_h3 {
+	font-size: 22pt;
+	color: #000000;
+	border-bottom: 2px solid #b8b8b8;
+	font-family: Roboto light;
+}
+
+.square_top_left,.square_top_right {
+	width: 300px;
+
+}
+
+.square_top_left {
+	float: left;
+
+}
+
+.square_top_right {
+	float: right;
+	text-align: right;
+}
+
+.square_left_p,.square_right_p {
+	font-size: 12pt;
+}
+
+.square_left_a,.square_right_a {
+	color: #b4a776;
+	font-size: 12pt;
+}
+
+.achievements {
+	height: 214px;
+	width: 100%;
+	background: #f4f3f8;
+	margin-top: 164px;
+}
+
+.achievements_icons:first-child {
+	margin-left: 59px; 
+} 
+
+.achievements_icons {
+	float: left;
+	height:87px;
+	width: 236px;
+	margin-left: 100px;
+	padding-top: 56px;
+}
+
+.achievements_icons_text {
+	height: 87px;
+	width: 149px;
+	float: right;
+}
+
+.achievements_icons_img {
+	float: left;
+
+}
+
+.achievements_icons_h3 {
+	margin-left: 19px;
+	font-size: 46px;
+	
+}
+
+.achievements_icons_p {
+	margin-left: 19px;
+	color: #a1a1a4;
+	font-size: 12px;
+}
+
+
+
+
+
+										/* --- УСЛУГИ --- */
+.services {
+	height: 616px;
+}
+
+.services_card { 
+	margin: 30px auto;
+	width: 1128px;
+}
+
+/* .services_card_item:first-child {
+	margin-left: 0px;
+} */
+
+.services_card_item {
+	width: 237px;
+	height: 162px;
+	float: left;
+	margin-left: 40px; 	
+}
+
+
+
+
+
+
+
+
+
+
+										/* --- ДОКТОРА --- */
+.doctors {
+	height: 676px;
+	background: #f5f3f8;
+}
+
+.doctors_caption {
+	position: relative;
+	height: 118px;
+	width: 347px;
+	transform: rotate(-90deg);
+	background: white;
+	right: 203px;
+	top: 391px;
+}
+
+.doctors_caption_text {
+	font-size: 12px;
+	color:#d0d4d7;
+
+}
+
+.doctors_caption_caption {
+	font-size: 22px;
+}
+
+.cards {
+	margin: 0 auto;
+	height: 570px;
+	width: 969px;
+}
+
+.doctor_card {
+	float: left;
+	background: white;
+	border: 1px solid #cdcdcd;
+	position: absolute;
+	margin-top: 75px; 
+}
+
+.doctor_card.card_1 {
+	position: relative;
+	left: 30px;
+/* 	margin: 0 20px 0 0;  */
+}
+
+.doctor_card.card_2 {
+	position: relative;
+	bottom: 30px;
+/* 	margin: 20px 0 0 0;	 */
+}
+
+.doctor_card.card_3 {
+	position: relative;
+	right: 30px;
+/* 	margin: 0 0 0 20px;	 */
+}
+
+.doctor_foto {
+	height: 430px;
+	width: 321px;
+}
+
+.doctor_caption {
+
+	font-size: 22px;
+	padding-top: 15px;
+	padding-left: 37px;  
+}
+
+.doctor_text {
+	font-size: 12px;
+	padding-top: 10px;
+	padding-left: 37px;
+}
+
+.doctor_link {
+	display: block;
+	padding-top: 7px;
+	color: #b4a776;
+	text-decoration: none;
+	padding-left: 37px;
+}
+
+.doctors_buttons {
+	position: absolute;
+	width: 41px;
+	height: 90px;
+	left: 1129px;
+	margin-top: 400px; 
+
+}
+
+.doctors_button_top,.doctors_button_bottom {
+	position: relative;
+
+	width: 41px;
+	height: 45px;
+	background: #ffffff;
+	border: 1px solid #e8e8e8; 
+}
+
+
+
+										/* --- КОНТАКТЫ И КАРТА --- */
+.contacts {
+	height: 632px;
+	background: #dddddf;
+}
+
+
+.contacts_forma {
+	width: 512px;
+	height: 632px;	
+	float: left;
+	margin: 78px 0 0 33px;
+	padding-bottom: 45px;
+
+}
+
+.contacts_forma_name,.contacts_forma_phone {
+	margin-top: 12px; 
+	width: 400px;
+	background: #dddddf;
+	color: #3b3b3b;
+	outline: none;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;   
+	border-bottom: 1px solid #828c95;
+}
+
+.contacts_forma_textarea {
+	margin-top: 12px; 
+	width: 400px;
+	height: 93px;
+	margin-bottom: 28px; 
+}
+
+/* .contacts_forma_textarea::placeholder {
+	margin-left: 5px; 
+} */
+
+.contacts_forma_h2 {
+	font-size: 30px;
+}
+
+.contacts_forma_p:first-child {
+	margin-top: 30px; 
+}
+
+.contacts_forma_p {
+	margin-top: 20px; 
+	font-size: 14px;
+}
+
+.contacts_map {
+	width: 512px;
+	height: 632px;	
+	float: right;
+}
+
+
+/* public */
+.container {
+	padding: 0 20px;
+	width: 1024px;
+	margin: 0 auto;
+
+}
+
+.clearfix {
+	clear: both; /* Запрет обтекания с обоих сторон */
+}
+
+.debug {
+	outline: red 1px dashed; 
+}
+
+
+@font-face {
+    font-family: Roboto Regular;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto BoldItalic;
+    src: url(../fonts/Roboto-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: Roboto Bold;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Roboto Italic;
+    src: url(../fonts/Roboto-Italic.ttf);
+}
+
+@font-face {
+    font-family: Roboto Light;
+    src: url(../fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: Roboto Thin;
+    src: url(../fonts/Roboto-Thin.ttf);
+}
+
+
+
+
+
+/* 
+@font-face {
+    font-family: Roboto Regular; Имя шрифта
+    src: url(fonts/Roboto-Regular.ttf); Путь к файлу со шрифтом
+} */
+
+
+
+/* p {
+	font-family: Roboto Regular; Имя шрифта
+}
+
+@font-face {
+    font-family: Roboto Regular; Имя шрифта
+    src: url(fonts/Roboto-Regular.ttf); Путь к файлу со шрифтом
+} */
+
+
+
+/* @font-face {
+// название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) 
+	font-family: "Roboto "; 
+	// адрес шрифта и тип 
+	src: url("fonts/Roboto-Light.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal;
+}  */
